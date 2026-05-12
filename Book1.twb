@@ -194,7 +194,7 @@
       <column caption='Unit Price' datatype='real' name='[UnitPrice]' role='measure' type='quantitative' />
       <column caption='Online Retail A1:H10000' datatype='table' name='[__tableau_internal_object_id__].[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]' role='measure' type='quantitative' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ACER/AppData/Local/Temp/TableauTemp/#TableauTemp_0948iuf1jqng5y1b9clgq0g0p75n.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/25/2025 02:21:51 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ACER/AppData/Local/Temp/TableauTemp/#TableauTemp_1yn54xc0n238cp12zpbsv1qkdaae.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/12/2026 01:10:21 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
@@ -207,7 +207,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>45499</approx-count>
+              <approx-count>45198</approx-count>
               <contains-null>true</contains-null>
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
             </metadata-record>
@@ -221,7 +221,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>11149</approx-count>
+              <approx-count>11833</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
@@ -236,7 +236,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>11369</approx-count>
+              <approx-count>11994</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
@@ -251,7 +251,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>460</approx-count>
+              <approx-count>441</approx-count>
               <contains-null>true</contains-null>
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
             </metadata-record>
@@ -265,7 +265,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>datetime</local-type>
               <aggregation>Year</aggregation>
-              <approx-count>44478</approx-count>
+              <approx-count>44338</approx-count>
               <contains-null>true</contains-null>
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
             </metadata-record>
@@ -279,7 +279,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>693</approx-count>
+              <approx-count>632</approx-count>
               <contains-null>true</contains-null>
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
             </metadata-record>
@@ -293,7 +293,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>12674</approx-count>
+              <approx-count>12738</approx-count>
               <contains-null>true</contains-null>
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
             </metadata-record>
@@ -307,7 +307,7 @@
               <family>Online Retail A1:H10000</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>57</approx-count>
+              <approx-count>65</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
               <object-id>[Online Retail$A0000000001:H0000010000_2935317588FD4EF1A9DCF42026AE3F44]</object-id>
@@ -669,7 +669,7 @@
     </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' name='Monthly Revenue Trend – 2011'>
+    <window class='worksheet' maximized='true' name='Monthly Revenue Trend – 2011'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -730,7 +730,7 @@
       </viewpoint>
       <simple-id uuid='{3D352229-A607-4297-91E0-220B6A7B8FA6}' />
     </window>
-    <window class='worksheet' maximized='true' name='Top 10 Customers by Revenue – Focus for Retention'>
+    <window class='worksheet' name='Top 10 Customers by Revenue – Focus for Retention'>
       <cards>
         <edge name='left'>
           <strip size='160'>
